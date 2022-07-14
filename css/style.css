@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1240px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    height: 100vh;
+    background-color: #DCD7C9;
+}
+
+.title{
+    color: #2C3639;
+}
+
+.list{
+    text-decoration: none;
+    list-style: none;
+}
+
+.listNav li{
+    display: inline;
+    margin-right: 2rem;
+}
+
+.listNav a{
+    color: #3F4E4F;
+}
+
+.mainpage{
+    font-size: 20px;
+    margin-top: 50px;
+    color: #A27B5C;
+}
+
+.phone-list{
+    color: #3F4E4F;
+}
+
+.listPhone{
+    padding: 0;
+    font-size: 18px;
+}
+
+.products{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.prodCard{
+    width: 33%;
+    padding: 20px;
+}
+
+.prodCard img{
+    width: 200px;
+}
+
+.about-page{
+    max-width: 700px;
+    margin: 0 auto;
+    margin-top: 5rem;
+}
+
+.about-page h1,h2{
+    color: #A27B5C;
+}
+
+.about-page p {
+    color: #2C3639;
+}
+
+.about-art h1{
+    font-size: 3rem;
+    
+}
+
